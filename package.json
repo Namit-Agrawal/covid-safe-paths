@@ -50,6 +50,13 @@
       "app/assets/fonts"
     ]
   },
+  "workspaces": {
+    "packages": [
+      "shared/*",
+      "apps/bte",
+      "apps/gps"
+    ]
+  },
   "dependencies": {
     "@emotion/core": "^10.0.28",
     "@emotion/native": "^10.0.27",
